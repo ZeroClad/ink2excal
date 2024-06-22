@@ -6,6 +6,8 @@ It's still a very rough solution and I don't achieve every function in [InkML St
 * Python 3
 * win32clipboard (`pip install pywin32`)
 	* which means it only works on Windows
+## Video 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YC6GbF2HcqI/0.jpg)](https://www.youtube.com/watch?v=YC6GbF2HcqI)
 ## Usage
 1. I don't think this will ruin any data but backup is always a good habit.
 2. Change config in main.py if you need (config explanation down below)
