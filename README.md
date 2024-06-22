@@ -25,17 +25,17 @@ Onenote has a different resolution from Excalidraw. This is used to make them lo
 Useful for those who don't like writing with pen pressure (such as me). Setting this to True means the script will ignore the force data in Onenote.
 
 Note that if you turned off pen pressure in Onenote's setting, there will be no force data even if you set this to False.
-## pen_scale
+### pen_scale
 Similar to `overall_scale`,  this is used to make them look the same. The default value is 6.
 
 `excal.pen_size = onenote.pen_size * pen_scale`
-## sample_rate
+### sample_rate
 It seems Onenote has a higher sample rate, which will make the converted json very big. Increasing this will drop the sample rate in Excalidraw json and make it much smaller. For example, if you set sample_rate to 3, the script will take one dot every three dots.
 
 For me, it is hard to find differences if you set sample_rate to 2.
 
 `excal.sample_rate = onenote.sample_rate / sample_rate`
-## export_to_file and file_path
+### export_to_file and file_path
 If you set export_to_file to True, the script will save the converted json to file_path. Otherwise, it will override your clipboard then you can directly paste the json data to Excalidraw.
 ## Note
 Any data except ink data (such as text, images, etc.) will be ignored. Handle them manually :) .
